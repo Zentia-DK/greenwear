@@ -4,4 +4,13 @@
 @import "computer";
 @import "myStyles";
 
-
+$theme-colors:(
+        "primary": #003844,
+        "secondary": #0f0,
+        "danger": #ff4136,
+        "success": #050,
+        "info": #894,
+        "warning": #822,
+        "light": #ddd,
+        "dark": #333
+);
