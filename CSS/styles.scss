@@ -1,16 +1,14 @@
-
+$theme-colors:(
+        "primary": #358130,
+        "secondary": #95CD22,
+        "danger": #D1000E,
+        "success": #C6C4C5,
+        "info": #545454,
+        "warning": #2832A6,
+        "light": #FFFFFF,
+        "dark": #000000
+);
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "tablet";
 @import "computer";
 @import "myStyles";
-
-$theme-colors:(
-        "primary": #003844,
-        "secondary": #0f0,
-        "danger": #ff4136,
-        "success": #050,
-        "info": #894,
-        "warning": #822,
-        "light": #ddd,
-        "dark": #333
-);
