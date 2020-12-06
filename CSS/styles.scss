@@ -9,6 +9,19 @@ $theme-colors:(
         "dark": #000000
 );
 
+.text{
+  font-size: 12px !important;
+}
+
+.nummer{
+  font-size: 12px !important;
+}
+
+.nav-item{
+  font-family: "Tw Cen MT Condensed Extra Bold", serif;
+}
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "tablet";
 @import "computer";

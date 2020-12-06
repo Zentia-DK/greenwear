@@ -30,44 +30,115 @@
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
 <body>
 
-    <div class="flag bg-primary d-flex justify-content-sm-center">
-        <p class="text-white">Fri fragt for over 500,-</p>
-        <p class="text-white">Tlf: +45 00 00 00 00</p>
-        <img src="Images/danmark.png" alt="danmark" width="50" height="25">
-        <img src="Images/storbritannien.jpg" alt="storbritannien" width="50" height="25">
+
+    <div class="row bg-primary">
+        <div class="col-sm col-md-5 col-lg-xl-4 text-white d-flex justify-content-center m-auto">
+            <p class=" text text-white mt-3 ">Fri fragt for over 500,-</p>
+        </div>
+        <div class=" col-sm col-md-5 col-lg-xl-4 text-white">
+            <p class="nummer text-white mt-3"> Tlf: +45 00 00 00 00</p>
+        </div>
+        <div class="col-sm col-md-2 col-lg-xl-4 d-flex align-items-center justify-content-evenly">
+            <a href="index.html">
+                <img class="DK d-flex mr-3" src="Images/danmark.png" alt="danmark" width="26" height="16">
+                <a href="engforside.html">
+                <img class="ENG d-flex " src="Images/storbritannien.jpg" alt="storbritannien" width="26" height="16">
+            </a>
+            </a>
+
+        </div>
     </div>
 
+
     <div class="søg bg-secondary">
-        dhdhfghfhfg
+        <div class="row d-flex justify-content-center">
+            <div class="col-6 ">
+                <div class="input-group">
+                    <input class="form-control border-secondary py-2" type="search" value="search">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                    <i class="fas fa-shopping-basket text-white align-self-center pl-1 fa-1x " style="cursor: pointer"></i>
+                </div>
+            </div>
+        </div>
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark text-primary">
-        <a href="index.html" class="navbar-brand mr-n3"><img class="logo ml-n2 " src="Images/logomark+logotype.png" alt="logo" style="height: 111px; width: 510px;"></a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-            <span class="navbar-toggler-icon "></span>
+        <a href="index.html" class="navbar-brand mr-n3"><img class="logo ml-n2 " src="Images/logotype.png" alt="logo" style="height:20px; width: 100px;"></a>
+        <button class="navbar-toggler text-primary" type="button" data-toggle="collapse" data-target="#navbarContent">
+            <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse  text-primary " id="navbarContent">
+        <div class="collapse navbar-collapse text-primary " id="navbarContent">
             <ul class="navbar-nav ml-auto">
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Hjem</a>
+                    <a href="index.html" class="nav-link text-primary">Hjem</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Om Os</a>
+                    <a href="omos.html" class="nav-link text-primary">Om Os</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Produkter</a>
+                    <a href="produkt.html" class="nav-link text-primary">Produkter</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link text-white">Kontakt</a>
+                    <a href="kontakt.html" class="nav-link text-primary">Kontakt</a>
                 </li>
-                <i class="fas fa-search text-white align-self-center pl-1 fa-1x"></i>
-                <i class="fas fa-shopping-basket text-white align-self-center pl-1 fa-1x"></i>
             </ul>
         </div>
     </nav>
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan darken-3">
+
+        <!-- Footer Elements -->
+
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5 bg-primary">
+                    <div class="mb-5 d-flex justify-content-center">
+
+                        <!-- Facebook -->
+                        <i class="fab fa-facebook-f fa-lg  mr-md-5 mr-3 fa-2x text-white" style="cursor: pointer">
+                                <a href="https://www.facebook.com/"></a>
+                            </i>
+
+                        <!-- youtube  -->
+                            <i class="fab fa-youtube-square fa-lg white-text mr-md-5 mr-3 fa-2x text-white" style="cursor: pointer">
+                                <a href="https://www.youtube.com/"></a>
+                            </i>
+                        <!--Instagram-->
+                            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x text-white" style="cursor: pointer">
+                                <a href=" https://www.instagram.com/"></a>
+                            </i>
+                    </div>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+
+        <!-- Footer Elements -->
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-secondary text-white">© 2020 Copyright:
+            <a href="#"> GRUPPE 2</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
 
 
 <!-- Her skal sidens indhold ligge -->
