@@ -1,3 +1,13 @@
+@charset "UTF-8";
+.text {
+  font-size: 12px !important; }
+
+.nummer {
+  font-size: 12px !important; }
+
+.nav-item {
+  font-family: "Arial Black", serif; }
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -7155,5 +7165,20 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+@media screen and (min-width: 768px) {
+  .nummer {
+    display: grid; } }
+
+@media screen and (min-width: 1200px) {
+  .nummer {
+    display: grid; }
+  .søg {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; } }
+
+.nummer {
+  display: none; }
 
 /*# sourceMappingURL=styles.css.map */

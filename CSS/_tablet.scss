@@ -1,5 +1,12 @@
-@media #{$tablet}{
+$myStyles: "screen and (min-width: 320px)";
+$tablet: "screen and (min-width: 768px)";
+$computer: "screen and (min-width:1200px)";
 
+
+@media #{$tablet}{
+  .nummer{
+    display: grid;
+  }
 
 
 

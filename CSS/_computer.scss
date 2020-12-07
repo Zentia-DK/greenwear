@@ -1,7 +1,21 @@
-@media #{$computre}{
+$myStyles: "screen and (min-width: 320px)";
+$tablet: "screen and (min-width: 768px)";
+$computer: "screen and (min-width:1200px)";
 
 
+@media #{$computer}{
+
+.nummer{
+  display: grid;
+}
 
 
+.søg{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+
+}
 
 }
