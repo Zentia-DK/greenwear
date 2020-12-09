@@ -20,6 +20,7 @@ Sprøgsmål til Kim:
 3. Burgermenu
 4. Mellemrum mellem cards
 5. Gjort underskiften mindre på mobil
+6. Helene kan ikke pushe
 
 
 
