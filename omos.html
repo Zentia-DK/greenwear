@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
     <!-- Titel som ses oppe i browserens tab mv. -->
-    <title>Sigende titel</title>
+    <title>Om Os | GreenWear.dk</title>
 
     <!-- Metatags der fortæller at søgemaskiner er velkomne, hvem der udgiver siden og copyright information -->
     <meta name="robots" content="All">
@@ -20,6 +20,8 @@
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/09a5099bff.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,6 +31,180 @@
 <body>
 
 <!-- Her skal sidens indhold ligge -->
+
+<div class="row bg-primary">
+    <div class="col-sm col-md-5 col-lg-xl-4 text-white  m-auto">
+        <p class=" text text-white mt-3 ">Fri fragt for over 500,-</p>
+    </div>
+    <div class=" col-sm col-md-5 col-lg-xl-4 text-white">
+        <p class="nummer text-white mt-3"> Tlf: +45 00 00 00 00</p>
+    </div>
+    <div class="col-sm col-md-2 col-lg-xl-4 d-flex align-items-center justify-content-evenly">
+        <a href="index.html">
+            <img class="DK d-flex mr-2" src="Images/danmark.png" alt="danmark" width="26" height="16">
+            <a href="engforside.html">
+                <img class="ENG d-flex " src="Images/storbritannien.jpg" alt="storbritannien" width="26" height="16">
+            </a>
+        </a>
+
+    </div>
+</div>
+
+
+<div class="søg bg-secondary ">
+    <div class="row d-flex align-items-center justify-content-evenly">
+        <i class="fab fa-facebook-f fa-lg  mr-lg-xl-4  fa-1x text-white m-auto" style="cursor: pointer">
+            <a href="https://www.facebook.com/"></a>
+        </i>
+        <i class="fab fa-youtube-square fa-lg white-text mr-lg-xl-4  fa-1x text-white m-auto d-flex align-items-start" style="cursor: pointer">
+            <a href="https://www.youtube.com/"></a>
+        </i>
+        <i class="fab fa-instagram fa-lg white-text mr-lg-xl-4  fa-1x text-white m-auto" style="cursor: pointer">
+            <a href=" https://www.instagram.com/"></a>
+        </i>
+        <div class="col-6  ">
+            <div class="input-group ">
+                <input class="form-control border-secondary py-2" type="search" value="search">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <i class="fas fa-shopping-basket text-white align-self-center pl-1 fa-1x  d-flex justify-content-end" style="cursor: pointer"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-white ">
+    <a href="index.html" class="navbar-brand mr-n3"><img class="logo ml-n2 " src="Images/logotype.png" alt="logo" style="height:20px; width: 100px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-primary " id="navbarContent">
+        <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item">
+                <a href="index.html" class="nav-link text-primary">Hjem</a>
+            </li>
+            <li class="nav-item">
+                <a href="omos.html" class="nav-link text-primary">Om Os</a>
+            </li>
+            <li class="nav-item">
+                <a href="produkt.html" class="nav-link text-primary">Produkter</a>
+            </li>
+            <li class="nav-item">
+                <a href="kontakt.html" class="nav-link text-primary">Kontakt</a>
+            </li>
+        </ul>
+    </div>
+    <i class="fas fa-shopping-basket text-primary align-self-center pl-1 fa-1x " style="cursor: pointer"></i>
+</nav>
+
+<div class="container ">
+
+    <div class="billede d-flex justify-content-center">
+        <img src="Images/logomark+logotype.png" class="img-fluid" alt="Responsive image">
+    </div><br>
+
+
+    <div class="jumbotron ">
+        <h1 class="overskrift1 display-4 d-flex justify-content-center">Hvem er GreenWear?</h1>
+        <p class="lead d-flex justify-content-center">
+            Vi er et nyopstartet firma som har
+            valgt at gøre vores del, for <br>
+            at gøre verden grønnere ved at
+            importere tekstiler lavet fra <br> abaca planten.
+            Vi laver nedbrydelige mundbind af dette materiale.
+        </p>
+
+        <br><br>
+
+        <h1 class="overskrift1 display-4 d-flex justify-content-center">Hvad er abaca fibre?
+        </h1>
+        <p class="lead d-flex justify-content-center">
+            Fibrene kommer fra en plante der er i familie
+            med banan planten <br> og abaca planten vokser hovedsageligt i
+            Filippinerne, fibrene kan også <br> bruges til at lave
+            tovværk af og bliver hovedsageligt til at lave tøj af. <br>
+            Det der gør materialet specielt,
+            er at det bliver nedbrudt på 2 måneder.
+        </p>
+    </div>
+
+    <div class="billede d-flex justify-content-center">
+        <img src="Images/baca.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+
+    <div class="abaca container"></div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer font-small cyan darken-3 ">
+
+    <!-- Footer Elements -->
+
+
+    <!-- Grid row-->
+    <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-12 py-5 bg-primary">
+            <div class=" d-flex justify-content-around mr-sm-md-lg-xl-3">
+
+                <div class="ardresse">
+                    <!-- adressse -->
+                    <p class="navn text-white">GreenWear</p>
+                    <p class="ard text-white">
+                        Adr: Kravernevænder <br>
+                        7852 Ødemarken <br>
+                        Tlf: +4500000000 <br>
+                    </p>
+                </div>
+                <div class="some">
+                    <!-- some -->
+                    <p class="navn text-white">SoMe</p>
+                    <i class="fab fa-facebook-f fa-lg  white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                        <a href="https://www.facebook.com/"></a>
+                    </i>
+                    <i class="fab fa-youtube-square fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                        <a href="https://www.youtube.com/"></a>
+                    </i>
+                    <i class="fab fa-instagram fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                        <a href=" https://www.instagram.com/"></a>
+                    </i>
+                </div>
+                <!--Betalingsmetoder-->
+                <div class="betalingmetoder">
+                    <p class="navn text-white">Betalings <br> Metoder</p>
+                    <i class="fas fa-credit-card white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
+                    <i class="fab fa-cc-visa white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
+                    <i class="fab fa-cc-mastercard white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
+                    <i class="fab fa-cc-paypal white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
+                </div>
+            </div>
+        </div>
+        <!-- Grid column -->
+    </div>
+    <!-- Grid row-->
+
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 bg-secondary text-white">© 2020 Copyright:<br>
+        <a href="#"> GRUPPE 2</a>
+        <div class="Leverings metoder">
+            <p class="navn text-white">Leverings metoder</p>
+            <img class="gls mr-sm-md-lg-xl-3 text-white" src="Images/logo-gls-png.png" width="60px" height="10px">
+            <img class="gls mr-sm-md-lg-xl-3" src="Images/postnord-logo-png-7.png" width="60px" height="26px">
+
+
+        </div>
+    </div>
+    <!-- Copyright -->
+
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
