@@ -16,11 +16,6 @@ Hvid = #FFFFFF       (light)
 Sprøgsmål til Kim:
 
 1. Hvorfor kan vi ikke få dem skilt ad?
-2. Søgebar + SoMe
-3. Burgermenu
-4. Mellemrum mellem cards
-5. Gjort underskiften mindre på mobil
-6. Helene kan ikke pushe
 
 
 
