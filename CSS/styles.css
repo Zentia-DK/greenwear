@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .text {
   font-size: 12px !important; }
 
@@ -7169,10 +7168,6 @@ a.text-dark:hover, a.text-dark:focus {
 @media screen and (min-width: 768px) {
   .nummer {
     display: grid; }
-  .overskrift1 {
-    font-size: 40px !important; }
-  .lead {
-    font-size: 20px !important; }
   .btn {
     height: 40px;
     width: 150px;
@@ -7180,15 +7175,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media screen and (min-width: 1200px) {
   .nummer {
-    display: grid; }
-  .søg {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center; }
-  .overskrift1 {
-    font-size: 50px !important; }
-  .lead {
-    font-size: 25px !important; } }
+    display: grid; } }
 
 .nummer {
   display: none; }
@@ -7198,9 +7185,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navn {
   font-size: 15px; }
-
-.overskrift1 {
-  font-size: 30px !important; }
 
 .lead {
   font-size: 15px !important; }
@@ -7213,5 +7197,8 @@ a.text-dark:hover, a.text-dark:focus {
 .abaca {
   height: 50px;
   width: auto; }
+
+.overskrift3 {
+  font-max-size: 60px !important; }
 
 /*# sourceMappingURL=styles.css.map */
