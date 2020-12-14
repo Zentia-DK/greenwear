@@ -32,74 +32,69 @@
 
 <!-- Her skal sidens indhold ligge -->
 
-<div class="row bg-primary">
-    <div class="col-sm col-md-5 col-lg-xl-4 text-white  m-auto">
-        <p class=" text text-white mt-3 ">Fri fragt for over 500,-</p>
-    </div>
-    <div class=" col-sm col-md-5 col-lg-xl-4 text-white">
-        <p class="nummer text-white mt-3"> Tlf: +45 00 00 00 00</p>
-    </div>
-    <div class="col-sm col-md-2 col-lg-xl-4 d-flex align-items-center justify-content-evenly">
-        <a href="index.html">
-            <img class="DK d-flex mr-2" src="Images/danmark.png" alt="danmark" width="26" height="16">
-            <a href="engforside.html">
-                <img class="ENG d-flex " src="Images/storbritannien.jpg" alt="storbritannien" width="26" height="16">
-            </a>
-        </a>
-
-    </div>
-</div>
-
-
-<div class="søg bg-secondary ">
-    <div class="row d-flex align-items-center justify-content-evenly">
-        <i class="fab fa-facebook-f fa-lg  mr-lg-xl-4  fa-1x text-white m-auto" style="cursor: pointer">
-            <a href="https://www.facebook.com/"></a>
-        </i>
-        <i class="fab fa-youtube-square fa-lg white-text mr-lg-xl-4  fa-1x text-white m-auto d-flex align-items-start" style="cursor: pointer">
-            <a href="https://www.youtube.com/"></a>
-        </i>
-        <i class="fab fa-instagram fa-lg white-text mr-lg-xl-4  fa-1x text-white m-auto" style="cursor: pointer">
-            <a href=" https://www.instagram.com/"></a>
-        </i>
-        <div class="col-6  ">
-            <div class="input-group ">
-                <input class="form-control border-secondary py-2" type="search" value="search">
-                <div class="input-group-append">
-                    <button class="btn btn-outline-secondary" type="button">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-                <i class="fas fa-shopping-basket text-white align-self-center pl-1 fa-1x  d-flex justify-content-end" style="cursor: pointer"></i>
+<div class="head bg-primary text-white d-flex  justify-content-end ">
+    <div class="row " >
+        <div class=" col-md-12  m-1">
+            <p class=" text text-white mr-2 ">Fri fragt for over 500,-</p>
+            <div class="flag d-flex  justify-content-end m-1 ">
+                <a href="index.html">
+                    <img class="DK " src="Images/danmark.png" alt="danmark" width="26" height="16">
+                    <a href="engforside.html">
+                        <img class="ENG mr-2 " src="Images/storbritannien.jpg" alt="storbritannien" width="26" height="16">
+                    </a>
+                </a>
             </div>
         </div>
     </div>
 </div>
 
-<nav class="navbar navbar-expand-lg navbar-white ">
-    <a href="index.html" class="navbar-brand mr-n3"><img class="logo ml-n2 " src="Images/logotype.png" alt="logo" style="height:20px; width: 100px;"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-        <span class="navbar-toggler-icon"></span>
+<div class="container-fluid">
+    <div class=" bg-secondary row ">
+
+        <div class="input-group col-8 col-md-4 offset-md-4 text-center">
+            <input class="form-control border-secondary" type="search" value="search">
+            <button class="btn btn-outline-secondary" style="width: 100px;" type="button">
+                <i class="fa fa-search text-white" aria-hidden="true"></i>
+            </button>
+        </div>
+        <div class="some  col-4 col-md-4 text-right d-flex align-content-center">
+            <i class="fab fa-facebook-square fa-1x text-white m-auto" style="cursor: pointer" aria-hidden="true">
+                <a href="https://www.facebook.com/"></a>
+            </i>
+            <i class="fab fa-youtube-square fa-lg white-text   fa-1x text-white m-auto " style="cursor: pointer" aria-hidden="true">
+                <a href="https://www.youtube.com/"></a>
+            </i>
+            <i class="fab fa-instagram fa-lg white-text   fa-1x text-white m-auto" style="cursor: pointer" aria-hidden="true">
+                <a href=" https://www.instagram.com/"></a>
+            </i>
+            <i class="fas fa-shopping-basket fa-lg white-text   fa-1x text-white m-auto" style="cursor: pointer" aria-hidden="true"></i>
+        </div>
+    </div>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="engforside.html"><img src="Images/logotype.png" style="width: 150px; height: 30px;"></a>
+    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-primary"></span>
     </button>
-
-    <div class="collapse navbar-collapse text-primary " id="navbarContent">
-        <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item">
-                <a href="index.html" class="nav-link text-primary">Hjem</a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link text-primary" href="index.html">Hjem <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a href="omos.html" class="nav-link text-primary">Om Os</a>
+                <a class="nav-link text-primary" href="omos.html">Om Os</a>
             </li>
             <li class="nav-item">
-                <a href="produkt.html" class="nav-link text-primary">Produkter</a>
+                <a class="nav-link text-primary" href="produkt.html">Produkt</a>
             </li>
             <li class="nav-item">
-                <a href="kontakt.html" class="nav-link text-primary">Kontakt</a>
+                <a class="nav-link disabled text-primary" href="kontakt.html">Kontakt</a>
             </li>
         </ul>
     </div>
 </nav>
+
 
 <div class="container ">
 
@@ -130,13 +125,15 @@
             Det der gør materialet specielt,
             er at det bliver nedbrudt på 2 måneder.
         </p>
-    </div>
+
+<br><br>
 
     <div class="billede d-flex justify-content-center">
         <img src="Images/baca.jpg" class="img-fluid" alt="Responsive image">
     </div>
 
     <div class="abaca container"></div>
+    </div>
 </div>
 
 <!-- Footer -->
@@ -149,33 +146,33 @@
     <div class="row">
 
         <!-- Grid column -->
-        <div class="col-md-12 py-5 bg-primary">
-            <div class=" d-flex justify-content-around mr-sm-md-lg-xl-3">
+        <div class="col-md-12 ">
+            <div class=" d-flex justify-content-around mr-sm-md-lg-xl-3 bg-primary">
 
                 <div class="ardresse">
-                    <!-- adressse -->
+                    <!-- adressse --> <br>
                     <p class="navn text-white">GreenWear</p>
                     <p class="ard text-white">
-                        Adr: Kravernevænder <br>
-                        7852 Ødemarken <br>
-                        Tlf: +4500000000 <br>
+                        Område 51 <br>
+                        Marken <br>
+                        Tlf: +45 00 00 00 00 <br>
                     </p>
                 </div>
                 <div class="some">
-                    <!-- some -->
+                    <!-- some --><br>
                     <p class="navn text-white">SoMe</p>
-                    <i class="fab fa-facebook-f fa-lg  white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                    <i class="fab fa-facebook-square fa-lg  white-text mr-sm-md-lg-xl-3 mr-1 fa-3x text-white" style="cursor: pointer">
                         <a href="https://www.facebook.com/"></a>
                     </i>
-                    <i class="fab fa-youtube-square fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                    <i class="fab fa-youtube-square fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-3x text-white" style="cursor: pointer">
                         <a href="https://www.youtube.com/"></a>
                     </i>
-                    <i class="fab fa-instagram fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white" style="cursor: pointer">
+                    <i class="fab fa-instagram-square fa-lg white-text mr-sm-md-lg-xl-3 mr-1 fa-3x text-white" style="cursor: pointer">
                         <a href=" https://www.instagram.com/"></a>
                     </i>
                 </div>
                 <!--Betalingsmetoder-->
-                <div class="betalingmetoder">
+                <div class="betalingmetoder"><br>
                     <p class="navn text-white">Betalings <br> Metoder</p>
                     <i class="fas fa-credit-card white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
                     <i class="fab fa-cc-visa white-text mr-sm-md-lg-xl-3 mr-1 fa-2x text-white"></i>
@@ -191,12 +188,13 @@
     <!-- Footer Elements -->
 
     <!-- Copyright -->
-    <div class="footer-copyright text-center py-3 bg-secondary text-white">© 2020 Copyright:<br>
-        <a href="#"> GRUPPE 2</a>
+    <div class="footer-copyright col-md-12 text-center py-3 bg-secondary text-white">© 2020 Copyright:<br>
+        <a href="#"> Gruppe 2</a> <br><br>
         <div class="Leverings metoder">
-            <p class="navn text-white">Leverings metoder</p>
-            <img class="gls mr-sm-md-lg-xl-3 text-white" src="Images/logo-gls-png.png" width="60px" height="10px">
+            <img class="gls mr-sm-md-lg-xl-3 text-white" src="Images/GLS.png" width="60px" height="10px">
             <img class="gls mr-sm-md-lg-xl-3" src="Images/postnord-logo-png-7.png" width="60px" height="26px">
+            <img class="gls mr-sm-md-lg-xl-3" src="Images/trustpilot-new-.png" width="60px" height="26px">
+            <img class="gls mr-sm-md-lg-xl-3" src="Images/logo_22142.png" width="45px" height="26px">
 
 
         </div>
