@@ -7177,6 +7177,9 @@ a.text-dark:hover, a.text-dark:focus {
   .nummer {
     display: grid; } }
 
+html, body {
+  overflow-x: hidden; }
+
 .nummer {
   display: none; }
 
