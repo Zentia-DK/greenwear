@@ -17,4 +17,14 @@ $computer: "screen and (min-width:1200px)";
     font-size: 15px;
   }
 
+
+  .pctext{
+
+    visibility: hidden;
+  }
+
+  .mobiltext{
+    display: grid; !important;
+
+  }
 }
